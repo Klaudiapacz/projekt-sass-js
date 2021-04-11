@@ -1,40 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekt SPA</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,400;0,700;1,300&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,400;0,700;1,300&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-<nav class="main-nav">
-    <div class="container">
-        <div class="main-nav-holder">
-            <a href="" class="brand"><img src="img/logo-txt.png" alt=""></a>
-        </div>
 
-        <div class="mobile-hamburger"><i class="fas fa-bars"></i></div>
-        <div class="open-mobile-menu">
-            <div class="mobile-close"><i class="fas fa-times"></i></div>
+    <nav class="main-nav">
+        <div class="container">
+            <div class="main-nav-holder">
+                <a href="" class="brand"><img src="img/logo-txt.png" alt=""></a>
+
+                <div class="mobile-hamburger"><i class="fas fa-bars"></i></div>
+                <div class="open-menu-holder">
+                    <div class="mobile-close"><i class="fas fa-times"></i></div>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="">Home</a></li>
+                        <li class="menu-item"><a href="">About</a></li>
+                        <li class="menu-item"><a href="">Feature</a></li>
+                        <li class="menu-item"><a href="">Service</a></li>
+                        <li class="menu-item"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header-holder">
+                <p class="header-descripton">Spa & Beauty Center</p>
+                <h1>Beauty and success starts here</h1>
+                <p class="main-header-concent">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio dolorum
+                    possimus vero. Magni debitis aliquid perspiciatis, nostrum autem, nihil, nesciunt recusandae saepe
+                    excepturi non nulla. Consectetur, corrupti reprehenderit. Consectetur, mollitia.</p>
+                <div class="buttons-panel">
+                    <a href="" class="reserve">Reserve now &#8594;</a>
+                    <a href="" class="watch"><i class="fas fa-play"></i> watch our story</a>
+                </div>
+            </div>
+        </div>
+        <img src="img/header-flowers.png" alt="Flowers" class="header-flowers">
+        <img src="img/header-bg.png" alt="Background" class="header-bg">
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <header class="about-header">
+                <img src="img/logo.png" alt="Logo">
+                <p class="about-header-decription">About our SPA Center</p>
+                <h2>Come and you will be Inspired!</h2>
+            </header>
+
+            <p class="about"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae necessitatibus repudiandae
+                nisi nobis expedita perspiciatis porro, eum, quasi cum tempore minima sapiente laboriosam veritatis
+                magnam. Consectetur pariatur dicta ratione dignissimos?</p>
+            <a href="" class="btn-primary">Read more</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="row">
+            <a href="" class="service col col-md-50p col-lg-25p">
+                <img src="img/services-bg-1.jpg" alt="service 1">
+                <div class="service-overlay">
+                    <img src="img/icons/icon-spa.png" alt="Icon SPA">
+                    <h3>Body treatment</h3>
+                </div>
+            </a>
+            <a href="" class="service col col-md-50p col-lg-25p">
+                <img src="img/services-bg-2.jpg" alt="service 2">
+                <div class="service-overlay">
+                    <img src="img/icons/icon-spa.png" alt="Icon SPA">
+                    <h3>Body treatment</h3>
+                </div>
+            </a>
+            <a href="" class="service col col-md-50p col-lg-25p">
+                <img src="img/services-bg-3.jpg" alt="service 3">
+                <div class="service-overlay">
+                    <img src="img/icons/icon-spa.png" alt="Icon SPA">
+                    <h3>Body treatment</h3>
+                </div>
+            </a>
+            <a href="" class="service col col-md-50p col-lg-25p">
+                <img src="img/services-bg-4.jpg" alt="service 4">
+                <div class="service-overlay">
+                    <img src="img/icons/icon-spa.png" alt="Icon SPA">
+                    <h3>Body treatment</h3>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="procedures" class="procedures">
+        <div class="container">
+            <header class="section-header">
+                <h2>Popular Precedures</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo sunt, ullam consectetur quam nulla
+                    tempore ducimus quis laudantium nobis.</p>
+            </header>
+
+            <div class="row">
+                <div class="infobox col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/procedures-bg-1.jpg" alt="procedure 1">
+                        <h3>Message Therapy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora dignissimos unde enim
+                            velit qui aperiam voluptates optio dolorum eaque.</p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                </div>
+
+                <div class="infobox col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/procedures-bg-2.jpg" alt="procedure 2">
+                        <h3>Message Therapy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora dignissimos unde enim
+                            velit qui aperiam voluptates optio dolorum eaque.</p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                </div>
+
+                <div class="infobox col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/procedures-bg-3.jpg" alt="procedure 3">
+                        <h3>Message Therapy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora dignissimos unde
+                            enim
+                            velit qui aperiam voluptates optio dolorum eaque.</p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <header class="section-header">
+                <h2>Experienced team</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo sunt, ullam consectetur quam nulla
+                    tempore ducimus quis laudantium nobis.</p>
+            </header>
+
+            <div class="row">
+                <div class="infobox-team col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/team-1.jpg" alt="Team 1">
+                        <div class="infobox-team-caption">
+                            <h3>Jenny Austin</h3>
+                            <p>Thai Massage.</p>
+                            <div class="team-social-icons">
+                                <a href=""><i class="fab  fa-facebook-f"></i></a>
+                                <a href=""><i class="fab  fa-twitter"></i></a>
+                                <a href=""><i class="fab  fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="infobox-team col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/team-2.jpg" alt="Team 2">
+                        <div class="infobox-team-caption">
+                            <h3>Jenny Austin</h3>
+                            <p>Thai Massage.</p>
+                            <div class="team-social-icons">
+                                <a href=""><i class="fab  fa-facebook-f"></i></a>
+                                <a href=""><i class="fab  fa-twitter"></i></a>
+                                <a href=""><i class="fab  fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="infobox-team col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/team-3.jpg" alt="Team 3">
+                        <div class="infobox-team-caption">
+                            <h3>Jenny Austin</h3>
+                            <p>Thai Massage.</p>
+                            <div class="team-social-icons">
+                                <a href=""><i class="fab  fa-facebook-f"></i></a>
+                                <a href=""><i class="fab  fa-twitter"></i></a>
+                                <a href=""><i class="fab  fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment" class="appointment">
+        <div class="desktop-background" style="background-image: url(img/contact-bg.jpg);"></div>
+        <form id="appointment-form">
+            <input type="text" name="name" placeholder="Name" id="appointment-name" class="form-field">
+            <input type="email" name="email" placeholder="E-mail" id="appointment-email" class="form-field">
+            <select name="service" id="appointment-service" class="form-field">
+                <option value="">Select Service</option>
+                <option value="normal">Normal Service</option>
+                <option value="vip">VIP Service</option>
+            </select>
+
+            <input type="tel" name="phone" placeholder="Phone" id="appointment-phone" class="form-field">
+            <input type="date" name="date" placeholder="Date" id="appointment-date" class="form-field">
+            <input type="time" name="time" placeholder="Time" id="appointment-time" class="form-field">
+
+            <textarea name="message" id="appointment-message" placeholder="Your notes" class="form-field"></textarea>
+
+            <button type="submit" class="btn-form">Make an Appointment</button>
+            <p class="appointment-message"></p>
+        </form>
+
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <header class="section-header">
+                <h2>Latest From Blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo sunt, ullam consectetur quam nulla
+                    tempore ducimus quis laudantium nobis.</p>
+            </header>
+
+            <div class="row">
+                <div class="infobox col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/blog-1.jpg" alt="blog 1">
+                        <p class="meta"><a href="" class="category">Relaxation</a>|<a href="" class="post-date">july 03,
+                                2020</a></p>
+                        <h3>Had seed herb grass mids</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora.</p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                </div>
+
+                <div class="infobox col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/blog-2.jpg" alt="blog 2">
+                        <p class="meta"><a href="" class="category">Relaxation</a>|<a href="" class="post-date">july 03,
+                                2020</a></p>
+                        <h3>Divid image unto creeping</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                </div>
+
+                <div class="infobox col col-md-33p">
+                    <div class="infobox-inner">
+                        <img src="img/blog-3.jpg" alt="blog 3">
+                        <p class="meta"><a href="" class="category">Relaxation</a>|<a href="" class="post-date">july 03,
+                                2020</a></p>
+                        <h3>Message Therapy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <a href="" class="btn-secondary">Read more</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="concact" class="concact">
+        <div class="container">
+            <header class="section-header">
+                <h2>Find us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo sunt, ullam consectetur quam nulla
+                    tempore ducimus quis laudantium nobis.</p>
+            </header>
+
+            <div class="row">
+                <div class="concact-data col col-md-33p">
+                    
+                    <div class="concact-item">
+                        <span class="img-holder">
+                            <img src="img/icons/icon-map.png" alt="map">
+                        </span>
+                        <p>848 E 28th ST, BROOKLYN <br> NEW YORK, USA</p>
+                    </div>
+                    <div class="concact-item">
+                        <span class="img-holder">
+                            <img src="img/icons/icon-mail.png" alt="mail">
+                        </span>
+                        <p>
+                            <a href="mailto:example@example.pl">example@example.pl</a><br>
+                            <a href="mailto:example@example.pl">example@example.pl</a>
+                        </p>
+                    </div>
+                    <div class="concact-item">
+                        <span class="img-holder">
+                            <img src="img/icons/icon-tel.png" alt="phone">
+                        </span>
+                        <p>
+                            <span>+00 848 73737 4224 (00)</span><br>
+                            <span>+04 848 73447 4244 (00)</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="concact-form col col-md-66p">
+                    <form>
+                        <input type="text" placeholder="First name" name="name">
+                        <input type="email" placeholder="Email adress" name="email">
+                        <textarea name="" placeholder="Write message"></textarea>
+                        <button class="btn-form">Submit now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <img src="img/logo-txt.png" alt="logo">
+
+        <nav class="footer-nav">
             <ul class="menu">
-                <li class="menu-item">Home</li>
-                <li class="menu-item">About</li>
-                <li class="menu-item">Feature</li>
-                <li class="menu-item">Service</li>
-                <li class="menu-item">Contact</li>
+                <li class="menu-item"><a href="">Home</a></li>
+                <li class="menu-item"><a href="">About</a></li>
+                <li class="menu-item"><a href="">Feature</a></li>
+                <li class="menu-item"><a href="">Service</a></li>
+                <li class="menu-item"><a href="">Contact</a></li>
             </ul>
-        </div>
-    </div>
-</nav>
+        </nav>
 
+        <p class="copy">© COPYRIGHT 2020</p>
+    </footer>
 
 
 
     <script src="js/main.js"></script>
 </body>
+
 </html>

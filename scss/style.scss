@@ -4,4 +4,17 @@
 @import 'base/normalize';
 @import 'base/global';
 
+@import 'layout/grid';
 @import 'layout/nav';
+@import 'layout/headers';
+@import 'layout/about';
+@import 'layout/services';
+@import 'layout/team';
+@import 'layout/appointment';
+@import 'layout/concact';
+@import 'layout/footer';
+
+@import 'components/buttons';
+@import 'components/infoboxes';
+@import 'components/inputs';
+
